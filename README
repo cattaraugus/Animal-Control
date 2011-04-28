@@ -1,0 +1,23 @@
+Animal Control
+Written in PHP for the Drupal Framework
+
+Summary ---
+Animal Control is a module for the Drupal Framework that allows users to maintain animal information such as licensing.
+
+Brief History ---
+November 2010 - This was developed to use the database schema of the New York State Dog Licensing System. The NYS Dog Licensing system was abandoned by NYS due to budget cuts and was shut off on January 1, 2011.
+March 2011 - Added fields to the database
+
+To Do ---
+A bunch
+
+Requirements ---
+- Something from the PECL repo
+- Something else but can't think of what it is ...
+
+Roadmap ---
+- Optimization of Queries - There is currently ONE query that we know of that takes too long and that is the 'Find by Address'.
+- Email - Have the system email users upon certain events.
+- Database - Change the database structure to not rely on certain tables. Example: a License record is required to relate Animal record to Owner record at this time.
+
+More to come.
